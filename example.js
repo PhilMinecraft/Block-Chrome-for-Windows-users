@@ -1,5 +1,4 @@
 // Windows
-const ua = navigator.userAgent;
 const uad = navigator.userAgentData;
 const isWindows = navigator.platform.startsWith("Win");
 
