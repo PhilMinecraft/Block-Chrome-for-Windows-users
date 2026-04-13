@@ -1,7 +1,7 @@
 // Windows
 const ua = navigator.userAgent;
 const uad = navigator.userAgentData;
-const isWindows = ua.includes("Windows");
+const isWindows = navigator.platform.startsWith("Win");
 
 // Chrome
 const isChrome = uad.brands.some(b => b.brand === "Google Chrome");
